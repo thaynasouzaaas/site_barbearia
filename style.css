@@ -1,52 +1,58 @@
 body {
-   
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
 }
 
-.principal {
-    background: #CCCCCC;
-    padding: 30px;
-}
-
-.titulo-principal {
-    padding-left: 20px;
-}
-
-#banner {
-    width: 100%;
-}
-
-.titulo-centralizado{
-    text-align: center;
-}
-
-p {
-    text-align: center;
-}
-
-#missao {
-    font-size: 20px;
-}
-
-em strong {
-    color: #FF0000;
-}
-
-.itens {
-    font-style: italic;
-}
-
-.beneficios {
-    background: white;
+.container {
+    width: 80%;
+    margin: 0 auto;
     padding: 20px;
 }
 
-ul {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
 
-.imagembeneficios {
-    width: 50%;
+.main-content {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.revenda-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.revenda-form input,
+.revenda-form textarea,
+.revenda-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.revenda-form button {
+    background-color: #2c3e50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.revenda-form button:hover {
+    background-color: #1a252f;
+}
+
+footer {
+    background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
 }
